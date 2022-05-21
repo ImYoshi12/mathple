@@ -1,0 +1,62 @@
+body{
+    background: linear-gradient(
+        to top,
+        rgb(253, 253, 253),
+        aqua
+    );
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    color: rgb(147, 251, 255);
+    font-family: arial;
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    color: rgb(255, 59, 59);
+    background: rgb(255, 255, 255);
+}
+
+#credits{
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    width: 500px;
+    border-radius: 10px;
+    background: rgb(45, 45, 53);
+    animation-name: credits;
+    animation-duration: 6s;
+}
+
+.rafael {
+    color: rgb(101, 253, 253)
+}
+
+
+@keyframes credits{
+    from{
+        opacity: 0;
+    }
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(206, 64, 118);
+}
+
+a:hover{
+    color: rgb(161, 5, 52);
+    text-decoration: overline;
+}
+
+
+#ranking{
+    color: black;
+}
